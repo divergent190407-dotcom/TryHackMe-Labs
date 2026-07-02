@@ -48,8 +48,8 @@ Host: example.com
 
 Contains:
 
-* Method
-* Path
+* Method : GET
+* Path : 
 * Headers
 * Optional body
 
@@ -65,7 +65,7 @@ Content-Type: text/html
 
 Contains:
 
-* Status code
+* Status code: 200, the most common status code. Conveys that the request was successful. 
 * Headers
 * Data/content
 
