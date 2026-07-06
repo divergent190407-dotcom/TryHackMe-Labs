@@ -21,6 +21,7 @@ ifconfig
 
 **HTTP (HyperText Transfer Protocol)** is the language used by browsers and servers to communicate on the web.
 
+<img width="1140" height="270" alt="image" src="https://github.com/user-attachments/assets/03f9a2f9-528e-4fee-9195-583bfb8f74eb" />
 When you open a website:
 
 ```text
