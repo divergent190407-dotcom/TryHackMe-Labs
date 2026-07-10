@@ -271,6 +271,15 @@ More secure and modern.
 
 ---
 
+- Front-end server: This is usually the reverse
+or load balancer that forwards the requests to the back-end.
+- Back-end server: This server-side component processes user requests, interacts with databases, and serves data to the front-end. It's often developed using languages like
+, Python, and Javascript and frameworks like Laravel, Django, or Node.js.
+- Databases: Persistent storage systems where application data is stored. Examples of this are databases like MySQL, PostgreSQL, and NoSQL.
+- APIs (Application Programming Interfaces): Interfaces allow the front and back-end to communicate and integrate with other services.
+Microservices: Instead of a single monolithic back-end, many modern applications use microservices, which are small, independent services that communicate over a network, often using
+/ or .
+
 # HTTP Versions
 
 | Version  | Features            |
