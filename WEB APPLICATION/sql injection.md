@@ -22,6 +22,14 @@
 - update users SET username='root',password='pass123' where username='admin';
 - to delete:
 - delete from users where username='martin';
+## types
+- in-band:
+- In-Band Injection is the easiest type to detect and exploit; In-Band just refers to the same method of communication being used to exploit the vulnerability and also receive the results, for example, discovering an Injection vulnerability on a website page and then being able to extract data from the database to the same page.
+- error based:
+- This type of Injection is the most useful for easily obtaining information about the database structure, as error messages from the database are printed directly to the browser screen. This can often be used to enumerate a whole database.
+- union based:
+- This type of Injection utilises the UNION operator alongside a SELECT statement to return additional results to the page. This method is the most common way of extracting large amounts of data via an Injection vulnerability.
+- 
 ### how login works
 - enter your credentials, then build an SQL query, then send a request to the database, then match found or not found.
 - SELECT * FROM users WHERE username = 'alice' AND password = 'pass1234';
