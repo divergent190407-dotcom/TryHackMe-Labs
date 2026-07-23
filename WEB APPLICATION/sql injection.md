@@ -5,6 +5,23 @@
 - * means all; users is a column after the whole thing
 2. From a specific user
 - select * from users where username = 'alice';
+- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e470ced7-346f-450d-b07c-f901a5ff9907" />
+- where it is the intersation ofboth: 
+- select * from users where username='admin' and password='p4ssword';
+- where username starts with a:
+- select * from users where username like 'a%';
+- username ends with n:
+- select * from users where username like '%n';
+- contains mi within them:
+- select * from users where username like '%mi%';
+- union:
+- SELECT name,address,city,postcode from customers UNION SELECT company,address,city,postcode from suppliers;
+- to insert:
+- insert into users (username,password) values ('bob','password123');
+- to update:
+- update users SET username='root',password='pass123' where username='admin';
+- to delete:
+- delete from users where username='martin';
 ### how login works
 - enter your credentials, then build an SQL query, then send a request to the database, then match found or not found.
 - SELECT * FROM users WHERE username = 'alice' AND password = 'pass1234';
